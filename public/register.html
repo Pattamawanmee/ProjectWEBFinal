@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Register</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/register.css'>
+    <script src="js/login.js"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Prompt:wght@300;500&family=Quicksand:wght@300;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <div class="header-container">
+        <a class="link-furnider" href="index.html">
+            <div class="link-furnider">
+                <img src="pic/furnider.png" alt="" class="picfurnider" />
+            </div>
+        </a>
+        <div class="searchinput">
+            <input type="text" placeholder="Search..." class="textinput" />
+        </div>
+        <div class="Rightbar">
+            <ul class="logRe">
+                <li><a href="login.html" class="login-link">Login | </a></li>
+                <li><a href="register.html" class="register-link1">Register</a></li>
+            </ul>
+            <ul class="iconmenu">
+                <li><a href="" class="cart-link"><img src="icon/shopping-cart-solid.svg" class="carticon" /></a></li>
+                <li><a href="" class="user-link"><img src="icon/user.svg" class="usericon" /></a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+    <div class="form">
+    <form name="myForm" id="myForm" action="/regisDB" method="post" accept-charset="utf-8">
+
+        <div class="grid-container">
+
+            <div class="sign">
+                <h2>Register</h2>
+                <br>
+                Name*
+                <br>
+                <input type="text" name="name" required>
+                <br>
+                <br>
+                Email*
+                <br>
+                <input type="username" name="email">
+                <br>
+                <br>
+                Phone Number*
+                <br>
+                <input type="text" name="tel">
+                <br>
+                <br>
+                Password*
+                <br>
+                <input type="password" name="password" id="password" required>
+                <br>
+                <br>
+                Confirm password*
+                <br>
+                <input type="password" name="checkpassword" id="repassword" required>
+                <br>
+                <br>
+                <br>
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+
+</html>

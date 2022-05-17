@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chair</title>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Prompt:wght@300;500&family=Quicksand:wght@300;600;700&display=swap"
+    rel="stylesheet">
+  <link href="css/allproduct.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <script src="https://kit.fontawesome.com/1a6e646c06.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div>
+    <div class="header-container">
+      <a class="link-furnider" href="index.html">
+        <div class="link-furnider">
+          <img src="pic/furnider.png" alt="" class="picfurnider" />
+        </div>
+      </a>
+      <div class="searchinput">
+        <input type="text" placeholder="Search..." class="textinput" />
+      </div>
+      <div class="Rightbar">
+        <ul class="logRe">
+          <li><a href="login.html" class="login-link">Login | </a></li>
+          <li><a href="register.html" class="register-link1">Register</a></li>
+        </ul>
+        <ul class="iconmenu">
+          <div class="cart-btn">
+            <i id="cart" class="fas fa-shopping-cart"></i>
+            <span class="cart-quantity">0</span>
+          </div>         
+           <li><a href="" class="user-link"><img src="icon/user.svg" class="usericon" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+
+    <!-- หมวดหมู่ข้างบน -->
+    
+    <div class="listcatagory">
+      <h2> <a href="chair.html">Chair</a> </h2>
+      <h2> <a href="table.html">Table</a> </h2>
+      <h2> <a href="lamp.html">Lamp</a></h2>
+      <h2> <a href="sofa.html">Sofa</a></h2>
+    </div>
+
+
+    <main>
+      <!-- Start DEMO HTML (Use the following code into your project)-->
+      <div class="cart-modal-overlay">
+        <div class="cart-modal">
+          <i id="close-btn" class="fas fa-times"></i>
+          <h1 class="cart-is-empty">Cart is empty</h1>
+
+          <div class="product-rows">
+          </div>
+          <div class="total">
+            <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">0 Baht</span>
+            <button class="purchase-btn">PURCHASE</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="items-container">
+        <div class="card-1 card">
+          <img class="product-image" src="pic/0.png" alt="">
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-name">Relax chair</span><br>
+          <span class="product-price">700 Baht</span>
+        </div>
+        <div class="card-2 card">
+          <img class="product-image" src="pic/Chair 1.png" alt="">
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-name">White chair</span><br>
+          <span class="product-price">1200 Baht</span>
+        </div>
+        <div class="card-3 card">
+          <img class="product-image" src="pic/chair 3.png" alt="">
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-name">Beam armchair</span><br>
+          <span class="product-price">499 Baht</span>
+        </div>
+
+      </div>
+      <!-- END EDMO HTML (Happy Coding!)-->
+    </main>
+
+    
+
+    <!-- footer -->
+    <hr id="Lfooter">
+      <div class="hfooter">
+        <ul class="footercon">
+          <li class="textcon">Contact Us</li>
+          <li class="texttel">02-4756643</li>
+          <li class="textbang">Banglamung</li>
+        </ul>
+  </div>
+
+
+  </div>
+  <script type="text/javascript" src="js/cart.js"></script>
+</body>
+
+</html>

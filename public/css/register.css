@@ -1,0 +1,350 @@
+.header-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  
+  .picfurnider {
+    width: 80%;
+    grid-column: 1 / span 1;
+  }
+  
+  .searchinput {
+    width: 100%;
+    grid-column: 2 / span 2;
+  }
+  
+  .textinput {
+    margin-top: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    background-color: #E5E5E5;
+    background-image: url(../pic/Search1.png);
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    padding: 12px 20px 12px 40px;
+  }
+  
+  ul.iconmenu {
+    grid-column: 4 / span 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    position: absolute;
+    right: 160px;
+    top: 0px;
+  }
+  
+  ul.iconmenu li a {
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .carticon {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .usericon {
+    width: 26px;
+    height: 26px;
+  }
+  
+  ul.logRe {
+    grid-column: 4 / span 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+  }
+  
+  ul.logRe li a {
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  hr {
+    background-color: #DDA24A;
+    height: 1px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+  }
+  
+  * {
+    background: #FFF8EF;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+  
+  }
+  
+  input {
+    width: 680px;
+    height: 45px;
+    background-color: #E5E5E5;
+    border: none;
+    margin-top: 25px;
+  }
+  
+  .sign {
+    grid-column: 1 / span 1;
+    margin: auto;
+    width: 680px;
+  }
+  
+  .button input {
+    border-radius: 3px;
+    width: 680px;
+    height: 45px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Quicksand;
+    border-color: #dda24a;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #dda24a;
+    color: #ffffff;
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  @media(max-width: 800px) {
+  
+    .header-container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 25% 50% 25%;
+    }
+  
+    .picfurnider {
+      width: 100%;
+      grid-column: 1 / span 1;
+    }
+  
+    .searchinput {
+      grid-column: 1 / span 3;
+    }
+  
+    .textinput {
+      width: 100%;
+      margin-top: 25px;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 9px;
+      font-size: 16px;
+      background-color: #E5E5E5;
+      background-image: url(../pic/Search1.png);
+      background-position: 5px 5px;
+      background-repeat: no-repeat;
+      background-size: 25px 25px;
+      padding: 12px 20px 12px 40px;
+    }
+  
+    ul.iconmenu {
+      grid-column: 3 / span 1;
+  
+    }
+  
+    ul.iconmenu li a {
+      margin-right: 0.5rem;
+      text-decoration: none;
+      color: black;
+    }
+  
+    .carticon {
+      width: 26px;
+      height: 26px;
+    }
+  
+    .usericon {
+      width: 26px;
+      height: 26px;
+    }
+  
+    ul.logRe {
+      grid-column: 3 / span 1;
+    }
+  
+    ul.logRe li a {
+      margin-right: 0.5rem;
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: lighter;
+      font-family: 'Quicksand', sans-serif;
+    }
+  
+    hr {
+      color: #DDA24A;
+      background-color: #DDA24A;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+  
+    .header-container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+  
+    .picfurnider {
+      width: 70%;
+      grid-column: 1 / span 1;
+  
+    }
+  
+    .searchinput {
+      width: 100%;
+      grid-column: 1 / span 2;
+    }
+  
+    .textinput {
+      margin-top: 25px;
+      width: 100%;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 9px;
+      font-size: 16px;
+      background-color: #E5E5E5;
+      background-image: url("pic/Search.png");
+      background-position: 5px 5px;
+      background-repeat: no-repeat;
+      background-size: 25px 25px;
+      padding: 12px 20px 12px 40px;
+    }
+  
+    ul.iconmenu {
+      grid-column: 2 / span 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+      position: absolute;
+      right: 160px;
+      top: 0px;
+    }
+  
+    ul.iconmenu li a {
+      margin-right: 0.5rem;
+      text-decoration: none;
+      color: black;
+    }
+  
+    .carticon {
+      width: 26px;
+      height: 26px;
+    }
+  
+    .usericon {
+      width: 26px;
+      height: 26px;
+    }
+  
+    ul.logRe {
+      grid-column: 2 / span 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+      position: absolute;
+      right: 5px;
+      top: 0px;
+    }
+  
+    ul.logRe li a {
+      margin-right: 0.5rem;
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: lighter;
+      font-family: 'Quicksand', sans-serif;
+    }
+  
+    hr {
+      color: #DDA24A;
+      background-color: #DDA24A;
+    }
+  
+  
+    body {
+      width: 100;
+    }
+  
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto;
+  
+    }
+  
+    .button input {
+      border-radius: 3px;
+      width: 300px;
+      height: 45px;
+      display: inline-block;
+      font-size: 20px;
+      font-family: Quicksand;
+      border-color: #dda24a;
+      flex-direction: row;
+      justify-content: center;
+      background-color: #dda24a;
+      color: #ffffff;
+      text-decoration: none;
+      align-self: center;
+      text-align: center;
+      font-weight: 700;
+    }
+  
+    h2 {
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .sign {
+      grid-column: 1 / span 1;
+      width: 20px;
+      justify-content: center;
+    }
+  
+    input {
+      width: 300px;
+      height: 45px;
+      background-color: #E5E5E5;
+      border: none;
+      margin-top: 25px;
+      justify-content: center;
+      /* margin-right: 300px; */
+    }
+  
+    .form {
+      background: #FFF8EF;
+      font-family: 'Quicksand', sans-serif;
+      font-style: normal;
+      margin-right: 300px;
+    }
+  
+  
+  }
