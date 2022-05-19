@@ -40,22 +40,32 @@
     <hr>
 
 
-
+     
   
-      <div class="profile-profile">
-        <img src="pic/me1.jpg" class="profile-image" />
-        <div class="profile-name">
-          <span class="profile-textname">Name</span>
-          <span class="profile-textname2">pattamawan</span>
-        </div>
-        <div class="profile-email">
-          <span class="profile-textemail">Email</span>
-          <span class="profile-textemail2">pattamawan.p@mail.kmutt.ac.th</span>
-        </div>
-        <div class="profile-phone">
-          <span class="profile-tel">Tel.</span>
-          <span class="profile-num">0892451594</span>
-        </div>
-      </div>
+    <div class="form">
+      <form name="myprofile" id="myprofile" action="/updateDB" method="post" accept-charset="utf-8">
+          <div class="grid-container">
+              <div class="sign">
+                  <h2>Profile</h2>
+                  <br>
+                  Name
+                  <br>
+                  <input type="text" name="name" id="name" required>
+                  <br>
+                  <br>
+                  Password
+                  <br>
+                  <input type="password" name="password" id="password" required>
+                  <br>
+                  <br>
+                  <br>
+                  <span id="errordisplay"></span><br>
+                  <div class="button">
+                      <input type="submit" value="Save">
+                  </div>
+              </div>
+          </div>
+      </form>
+  </div>
   </div>
 </body>
